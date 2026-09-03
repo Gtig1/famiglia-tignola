@@ -1,0 +1,19 @@
+{
+  "name": "Famiglia Tignola",
+  "short_name": "Tignola",
+  "icons": [
+    {
+      "src": "/famiglia-tignola/images/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/famiglia-tignola/images/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#8E1F1F",
+  "background_color": "#F4EEDF",
+  "display": "standalone"
+}
