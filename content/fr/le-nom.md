@@ -9,7 +9,7 @@ draft: false
 <br><br>
 Le nom Tignola remonte, très vraisemblablement, à une seule et même racine latine : tinea, terme qui désignait à l'origine tout ver rongeur (qu'il s'agisse d'un insecte dévorant les tissus ou d'une affection cutanée attribuée par analogie populaire à un "ver" sous la peau). De cette souche unique sont issues deux branches distinctes en italien, et c'est de leur proximité que naissent les hypothèses les plus solides pour expliquer le nom de famille.
 <br><br>
-### La piste de la mite
+### La mite
 
 La première piste est la plus directe : tignola est simplement le mot italien désignant la mite des vêtements, issu du latin tardif tineŏla, diminutif de tinea.
 
@@ -19,7 +19,7 @@ Ce type de nom pose une difficulté puisqu'il est souvent impossible de reconsti
 
 Cette part d'ombre n'est pas un défaut de l'hypothèse : elle est la norme pour cette catégorie entière de noms, et l'absence d'explication récupérable ne doit pas être confondue avec l'absence de fondement.
 <br><br>
-### L'écho de la teigne
+### La teigne
 
 La seconde explication vient de l'autre versant de la même racine : l'italien tigna.
 

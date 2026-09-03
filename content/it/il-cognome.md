@@ -9,7 +9,7 @@ draft: false
 <br><br>
 Il nome Tignola risale, con ogni probabilità, a un'unica e medesima radice latina: tinea, termine che in origine indicava qualsiasi verme roditore (che si trattasse di un insetto divoratore di tessuti o di un'affezione cutanea attribuita, per analogia popolare, a un "verme" sotto la pelle). Da questo unico ceppo derivano due rami distinti in italiano, ed è proprio dalla loro vicinanza che nascono le ipotesi più solide per spiegare il cognome.
 <br><br><br>
-### La pista della tignola
+### Lla tignola
 
 La prima pista è la più diretta: tignola è semplicemente la parola che indica la tarma dei vestiti, dal latino tardo tineŏla, diminutivo di tinea.
 
@@ -19,7 +19,7 @@ Questo tipo di nome presenta una difficoltà, poiché spesso è impossibile rico
 
 Questa zona d'ombra non è un difetto dell'ipotesi: è la norma per l'intera categoria di questi nomi, e l'assenza di una spiegazione recuperabile non va confusa con l'assenza di fondamento.
 <br><br>
-### L'eco della tigna
+### La tigna
 
 La seconda spiegazione viene dall'altro versante della stessa radice: tigna.
 
