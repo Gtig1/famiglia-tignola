@@ -1,0 +1,4 @@
+name = "Tignola"
+license = "MIT"
+description = "Thème archivistique italien — Bodoni, parchemin, rouge & or napolitains"
+min_version = "0.146.0"

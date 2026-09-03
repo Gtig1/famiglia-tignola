@@ -1,0 +1,11 @@
+# Sortie de build Hugo — régénérée par GitHub Actions à chaque push.
+# Ne jamais la versionner : ~54 Mo inutiles, et elle contient livereload.js
+# (elle a été produite par `hugo server`, pas par un build de production).
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Divers
+.DS_Store
+Thumbs.db
+*.tmp

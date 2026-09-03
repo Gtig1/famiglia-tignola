@@ -1,0 +1,88 @@
+# Configuration Hugo — Famiglia Tignola
+
+baseURL = "https://gtig1.github.io/famiglia-tignola/"
+title = "Famiglia Tignola"
+theme = "tignola"
+
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = true
+disableKinds = ["taxonomy", "term"]
+
+[languages]
+
+  [languages.fr]
+    label = "Français"
+    contentDir = "content/fr"
+    weight = 1
+    [languages.fr.params]
+      sottotitolo = "Récits, lieux et documents d’une famille napolitaine jusqu’à nos jours."
+
+    [[languages.fr.menus.main]]
+      name = "Accueil"
+      pageRef = "/"
+      weight = 1
+    [[languages.fr.menus.main]]
+      name = "Le nom"
+      pageRef = "/le-nom"
+      weight = 2
+    [[languages.fr.menus.main]]
+      name = "Portraits"
+      pageRef = "/portraits"
+      weight = 3
+    [[languages.fr.menus.main]]
+      name = "Lieux"
+      pageRef = "/lieux"
+      weight = 4
+    [[languages.fr.menus.main]]
+      name = "L’arbre"
+      pageRef = "/arbre"
+      weight = 6
+    [[languages.fr.menus.main]]
+      name = "Documents"
+      pageRef = "/documents"
+      weight = 7
+    [[languages.fr.menus.main]]
+      name = "Autres Tignola"
+      pageRef = "/autres-tignola"
+      weight = 8
+
+  [languages.it]
+    label = "Italiano"
+    contentDir = "content/it"
+    weight = 2
+    [languages.it.params]
+      sottotitolo = "Storie, luoghi e documenti di una famiglia napoletana fino ai giorni nostri."
+
+    [[languages.it.menus.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 1
+    [[languages.it.menus.main]]
+      name = "Il cognome"
+      pageRef = "/il-cognome"
+      weight = 2
+    [[languages.it.menus.main]]
+      name = "Ritratti"
+      pageRef = "/ritratti"
+      weight = 3
+    [[languages.it.menus.main]]
+      name = "Luoghi"
+      pageRef = "/luoghi"
+      weight = 4
+    [[languages.it.menus.main]]
+      name = "L’albero"
+      pageRef = "/albero"
+      weight = 6
+    [[languages.it.menus.main]]
+      name = "Documenti"
+      pageRef = "/documenti"
+      weight = 7
+    [[languages.it.menus.main]]
+      name = "Altri Tignola"
+      pageRef = "/altri-tignola"
+      weight = 8
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

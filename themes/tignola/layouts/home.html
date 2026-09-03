@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="frontespizio">
+  <div class="rule-double"></div>
+  <p class="eyebrow">{{ i18n "eyebrowHome" }}</p>
+  <h1>Famiglia Tignola</h1>
+  <p class="sottotitolo">{{ .Site.Params.sottotitolo }}</p>
+  <div class="fleuron">⁂</div>
+  <p class="luoghi-data">{{ i18n "placesDates" }}</p>
+  <div class="rule-double thin"></div>
+</div>
+
+{{ $stories := where .Site.RegularPages "Section" (i18n "storiesSection") }}
+{{ with first 3 $stories }}
+<p class="eyebrow"><span class="n">{{ i18n "series" }} I</span> · {{ i18n "featured" }}</p>
+<div class="cards">
+  {{ range . }}
+  <article class="card">
+    <span class="data">{{ with .Params.lieu }}{{ . }}{{ end }}{{ with .Params.periode }} · {{ . }}{{ end }}</span>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary | plainify | truncate 140 }}</p>
+    {{ if .Draft }}<div class="foot"><span class="tag todo">{{ i18n "todo" }}</span></div>{{ end }}
+  </article>
+  {{ end }}
+</div>
+{{ end }}
+
+<div class="prose">{{ .Content }}</div>
+{{ end }}

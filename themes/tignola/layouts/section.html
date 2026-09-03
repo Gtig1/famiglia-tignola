@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ $w := 0 }}
+{{ range .Site.Menus.main }}{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}{{ $w = .Weight }}{{ end }}{{ end }}
+<p class="eyebrow">{{ if gt $w 0 }}<span class="n">{{ i18n "series" }} {{ index (slice "" "I" "II" "III" "IV" "V" "VI" "VII" "VIII" "IX") $w }}</span> · {{ end }}{{ .Title }}</p>
+<h1 class="page-title">{{ .Title }}</h1>
+<div class="prose" style="margin-bottom:2rem">{{ .Content }}</div>
+
+{{ if in (slice "lieux" "luoghi") .Section }}
+<div class="cards">
+  {{ range .Pages }}
+  <article class="card">
+    <span class="data">{{ with .Params.region }}{{ . }}{{ end }}{{ with .Params.dates }}{{ . }}{{ end }}</span>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Summary | plainify | truncate 120 }}</p>
+    {{ if .Draft }}<div class="foot"><span class="tag todo">{{ i18n "todo" }}</span></div>{{ end }}
+  </article>
+  {{ end }}
+</div>
+{{ else }}
+<div class="regesto">
+  {{ range .Pages }}
+  <div class="voce">
+    <span class="data">{{ with .Params.lieu }}{{ . }}{{ end }}{{ with .Params.periode }} · {{ . }}{{ end }}{{ with .Params.annee }} · {{ . }}{{ end }}</span>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ if .Draft }}<span class="tag todo">{{ i18n "todo" }}</span>{{ else }}<span></span>{{ end }}
+    <p class="riassunto">{{ .Summary | plainify | truncate 140 }}</p>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,9 @@
+{{- $dest := .Destination -}}
+{{- $classe := "" -}}
+{{- $parts := split $dest "#" -}}
+{{- if gt (len $parts) 1 -}}{{- $classe = index $parts 1 -}}{{- $dest = index $parts 0 -}}{{- end -}}
+{{- if hasPrefix $dest "/" -}}{{- $dest = relURL (strings.TrimPrefix "/" $dest) -}}{{- end -}}
+<figure{{ with $classe }} class="img-{{ . }}"{{ end }}>
+  <img src="{{ $dest }}" alt="{{ .Text }}" loading="lazy">
+  {{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

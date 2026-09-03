@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if not .IsHome }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>
+{{ with .Description }}<meta name="description" content="{{ . }}">{{ end }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+<a class="skip" href="#main" style="position:absolute;left:-9999px">{{ i18n "skip" }}</a>
+<header class="site-head">
+  <div class="wrap">
+    <div class="top">
+      <a class="brand" href="{{ "" | relLangURL }}">Famiglia <span class="amp">Tignola</span></a>
+      <nav class="lang" aria-label="{{ i18n "langLabel" }}">
+        {{- $page := . -}}
+        {{- $cur := .Site.Language.Lang -}}
+        {{- range $i, $s := hugo.Sites -}}
+          {{- if $i }} · {{ end -}}
+          {{- $lang := $s.Language.Lang -}}
+          {{- if eq $lang $cur -}}
+            <a class="cur" href="{{ $page.RelPermalink }}">{{ $lang | upper }}</a>
+          {{- else -}}
+            {{- $url := $s.Home.RelPermalink -}}
+            {{- range $page.Translations -}}
+              {{- if eq .Language.Lang $lang }}{{ $url = .RelPermalink }}{{ end -}}
+            {{- end -}}
+            <a href="{{ $url }}">{{ $lang | upper }}</a>
+          {{- end -}}
+        {{- end -}}
+      </nav>
+    </div>
+    <nav class="site-nav">
+      {{- $p := . -}}
+      {{- range .Site.Menus.main -}}
+        <a href="{{ .URL }}"{{ if or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }} class="active"{{ end }}>{{ .Name }}</a>
+      {{- end -}}
+    </nav>
+  </div>
+</header>
+<main id="main"><div class="wrap">
+{{ block "main" . }}{{ end }}
+</div></main>
+<footer class="site-foot">
+  <div class="wrap">
+    {{ $about := printf "%s/" (i18n "aboutSlug") | relLangURL }}
+    <div class="cols">
+      <div>
+        <h4>{{ i18n "method" }}</h4>
+        <ul>
+          <li><a href="{{ $about }}">{{ i18n "methodLink" }}</a></li>
+          <li><a href="{{ $about }}#questions">{{ i18n "questions" }}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>{{ i18n "sourcesBiblio" }}</h4>
+        <ul>
+          <li><a href="{{ $about }}#sources">{{ i18n "primarySources" }}</a></li>
+          <li><a href="{{ $about }}#biblio">{{ i18n "biblio" }}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>{{ i18n "contact" }}</h4>
+        <ul>
+          <li><a href="{{ $about }}#contact">{{ i18n "contactLine" }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="note">{{ i18n "footNote" }}</p>
+  </div>
+</footer>
+</body>
+</html>

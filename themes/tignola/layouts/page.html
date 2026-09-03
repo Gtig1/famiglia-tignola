@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ with .Params.banniere }}
+<figure class="banniere">
+  <img src="{{ if hasPrefix . "/" }}{{ relURL (strings.TrimPrefix "/" .) }}{{ else }}{{ . }}{{ end }}" alt="{{ $.Params.banniere_alt | default $.Title }}">
+  {{ with $.Params.banniere_legende }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>
+{{ end }}
+<p class="eyebrow">
+  {{- with .CurrentSection }}{{ if not .IsHome }}<span class="n">{{ .Title }}</span>{{ end }}{{ end -}}
+  {{- with .Params.lieu }} · {{ . }}{{ end -}}
+  {{- with .Params.periode }} · {{ . }}{{ end -}}
+  {{- with .Params.dates }} · {{ . }}{{ end -}}
+  {{- with .Params.annee }} · {{ . }}{{ end -}}
+</p>
+<h1 class="page-title">{{ .Title }}</h1>
+{{ if .Draft }}<p class="page-tag"><span class="tag todo">{{ i18n "todo" }}</span></p>{{ end }}
+{{ with .Params.cote }}<p class="eyebrow" style="margin-bottom:1.4rem">{{ . }}</p>{{ end }}
+<div class="prose">{{ .Content }}</div>
+{{ end }}

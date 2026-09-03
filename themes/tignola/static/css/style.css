@@ -1,0 +1,337 @@
+/* ============================================================
+   Famiglia Tignola — prototype statique (rendu type Hugo)
+   Palette : parchemin / rouge & or napolitains / encre
+   Typo : Bodoni Moda (titrage) · Source Serif 4 (texte)
+          IBM Plex Mono (cotes d'archives, étiquettes)
+   ============================================================ */
+
+:root {
+  --paper:  #F4EEDF;
+  --panel:  #ECE4CE;
+  --ink:    #241E14;
+  --rosso:  #8E1F1F;
+  --oro:    #A97E22;
+  --faded:  #7D7259;
+  --rule:   #CCBFA0;
+  --maxw:   72rem;
+  --measure: 80ch;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; animation: none !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+a { color: var(--rosso); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--ink); }
+:focus-visible { outline: 2px solid var(--oro); outline-offset: 3px; }
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 1.5rem; }
+
+/* ---------- entête ---------- */
+.site-head { border-bottom: 1px solid var(--rule); }
+.site-head .top {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 1rem; padding: 1.1rem 0 .6rem;
+}
+.brand {
+  font-family: "Bodoni Moda", "Bodoni MT", Didot, serif;
+  font-size: 1.15rem; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--ink); text-decoration: none; white-space: nowrap;
+}
+.brand .amp { color: var(--rosso); }
+
+.lang {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: .78rem; letter-spacing: .12em;
+}
+.lang a { text-decoration: none; color: var(--faded); padding: .15rem .3rem; }
+.lang a:hover { color: var(--ink); }
+.lang .cur { color: var(--rosso); border-bottom: 2px solid var(--rosso); }
+
+.site-nav {
+  display: flex; flex-wrap: wrap; gap: .1rem 1.4rem;
+  padding: .35rem 0 .8rem;
+  font-variant-caps: all-small-caps;
+  letter-spacing: .09em; font-size: 1rem;
+}
+.site-nav a { color: var(--ink); text-decoration: none; }
+.site-nav a:hover { color: var(--rosso); }
+.site-nav a.active { color: var(--rosso); border-bottom: 2px solid var(--rosso); }
+
+/* ---------- frontespizio (accueil) ---------- */
+.frontespizio {
+  text-align: center;
+  padding: 3.2rem 1rem 2.6rem;
+  max-width: 46rem; margin: 0 auto;
+}
+.rule-double { position: relative; border-top: 1px solid var(--ink); }
+.rule-double::after {
+  content: ""; position: absolute; left: 0; right: 0; top: 4px;
+  border-top: 3px solid var(--ink);
+}
+.rule-double.thin::after { border-top-width: 1px; }
+
+.frontespizio .eyebrow { margin-top: 2rem; }
+.frontespizio h1 {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-weight: 500;
+  font-size: clamp(2.6rem, 7vw, 4.4rem);
+  line-height: 1.05;
+  margin: .9rem 0 .4rem;
+  letter-spacing: .01em;
+}
+.frontespizio .sottotitolo {
+  font-family: "Bodoni Moda", Didot, serif;
+  font-style: italic; font-size: 1.25rem; color: var(--ink);
+  margin: 0 auto; max-width: 34rem;
+}
+.fleuron { color: var(--oro); font-size: 1.6rem; margin: 1.2rem 0; }
+.frontespizio .luoghi-data {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .8rem; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--faded); margin-bottom: 2rem;
+}
+
+/* ---------- éléments communs ---------- */
+.eyebrow {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: .74rem; letter-spacing: .22em; text-transform: uppercase;
+  color: var(--faded); margin: 0 0 .4rem;
+}
+.eyebrow .n { color: var(--rosso); }
+
+main { padding: 2.6rem 0 3.5rem; }
+.page-title {
+  font-family: "Bodoni Moda", Didot, serif; font-weight: 500;
+  font-size: clamp(2rem, 5vw, 3rem); line-height: 1.1; margin: .2rem 0 1rem;
+}
+.lede {
+  font-size: 1.2rem; font-style: italic; color: var(--faded);
+  max-width: var(--measure); margin: 0 0 2.2rem;
+}
+.prose { max-width: var(--measure); }
+.prose h2 {
+  font-family: "Bodoni Moda", Didot, serif; font-weight: 600;
+  font-size: 1.5rem; margin: 2.4rem 0 .6rem;
+}
+.prose h2 .n { color: var(--rosso); font-weight: 400; margin-right: .5rem; }
+.prose p { margin: 0 0 1rem; }
+.prose .placeholder { color: var(--faded); font-style: italic; }
+
+hr.sep { border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
+
+/* étiquettes */
+.tag {
+  font-family: "IBM Plex Mono", monospace; font-size: .68rem;
+  letter-spacing: .1em; text-transform: uppercase;
+  padding: .12rem .45rem; border-radius: 2px; white-space: nowrap;
+}
+.tag.todo   { color: var(--faded); border: 1px solid var(--rule); }
+.tag.sample { color: var(--rosso); border: 1px solid var(--rosso); }
+.tag.piem   { color: var(--oro);  border: 1px solid var(--oro); }
+
+/* ---------- listes « regesto » ---------- */
+.regesto { border-top: 1px solid var(--rule); max-width: 56rem; }
+.regesto .voce {
+  display: grid; grid-template-columns: 9.5rem 1fr auto;
+  gap: .35rem 1.4rem; align-items: baseline;
+  padding: 1.05rem 0; border-bottom: 1px dotted var(--rule);
+}
+.voce .data {
+  font-family: "IBM Plex Mono", monospace; font-size: .82rem;
+  letter-spacing: .06em; color: var(--rosso);
+}
+.voce h3 { margin: 0; font-family: "Bodoni Moda", Didot, serif; font-weight: 500; font-size: 1.3rem; }
+.voce h3 a { color: var(--ink); text-decoration: none; }
+.voce h3 a:hover { color: var(--rosso); }
+.voce .riassunto { grid-column: 2; color: var(--faded); font-size: .97rem; }
+
+/* ---------- cartes (accueil, lieux, portraits) ---------- */
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin: 1.4rem 0; }
+.cards.two { grid-template-columns: repeat(2, 1fr); }
+.card {
+  background: var(--panel); border: 1px solid var(--rule);
+  padding: 1.2rem 1.25rem 1.1rem; display: flex; flex-direction: column; gap: .45rem;
+}
+.card .data {
+  font-family: "IBM Plex Mono", monospace; font-size: .74rem;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--rosso);
+}
+.card h3 { margin: 0; font-family: "Bodoni Moda", Didot, serif; font-weight: 500; font-size: 1.35rem; line-height: 1.2; }
+.card h3 a { color: var(--ink); text-decoration: none; }
+.card h3 a:hover { color: var(--rosso); }
+.card p { margin: 0; font-size: .95rem; color: var(--ink); }
+.card .foot { margin-top: auto; padding-top: .5rem; }
+
+/* ---------- encadré « question ouverte » ---------- */
+.aperta {
+  background: var(--panel); border-left: 4px solid var(--rosso);
+  padding: 1.2rem 1.4rem; max-width: var(--measure); margin: 2rem 0;
+}
+.aperta .eyebrow { color: var(--rosso); }
+.aperta p { margin: .3rem 0 0; }
+
+/* ---------- documents : image + transcription ---------- */
+.documento { display: grid; grid-template-columns: minmax(0,5fr) minmax(0,7fr); gap: 2rem; margin: 1.6rem 0; }
+.doc-img {
+  border: 1px dashed var(--faded); background: var(--panel);
+  aspect-ratio: 3 / 4; display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 1rem;
+  font-family: "IBM Plex Mono", monospace; font-size: .8rem; color: var(--faded);
+}
+.doc-testo h3 {
+  font-family: "IBM Plex Mono", monospace; font-size: .74rem;
+  letter-spacing: .2em; text-transform: uppercase; color: var(--faded);
+  margin: 0 0 .5rem;
+}
+.doc-testo blockquote {
+  margin: 0 0 1.4rem; padding-left: 1rem; border-left: 2px solid var(--oro);
+  font-style: italic;
+}
+
+/* ---------- placeholder arbre ---------- */
+.albero-slot {
+  border: 1px dashed var(--faded); background: var(--panel);
+  min-height: 24rem; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: .6rem;
+  text-align: center; padding: 2rem;
+  font-family: "IBM Plex Mono", monospace; font-size: .85rem; color: var(--faded);
+}
+.albero-slot .big { font-family: "Bodoni Moda", Didot, serif; font-size: 1.6rem; color: var(--ink); font-style: italic; }
+
+/* ---------- splash racine ---------- */
+.splash { min-height: 92vh; display: flex; align-items: center; justify-content: center; }
+.splash .frontespizio { padding-top: 0; }
+.lang-choice { display: flex; gap: 1.2rem; justify-content: center; margin-top: 1.6rem; }
+.lang-choice a {
+  font-family: "IBM Plex Mono", monospace; font-size: .95rem; letter-spacing: .2em;
+  text-transform: uppercase; text-decoration: none;
+  border: 1px solid var(--ink); color: var(--ink); padding: .7rem 1.6rem;
+  transition: background .15s ease, color .15s ease;
+}
+.lang-choice a:hover { background: var(--rosso); border-color: var(--rosso); color: var(--paper); }
+
+/* ---------- pied de page ---------- */
+.site-foot { border-top: 1px solid var(--rule); background: var(--panel); margin-top: 2rem; }
+.site-foot .cols {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem;
+  padding: 2rem 0 1.4rem; font-size: .93rem;
+}
+.site-foot h4 {
+  font-family: "IBM Plex Mono", monospace; font-size: .72rem;
+  letter-spacing: .2em; text-transform: uppercase; color: var(--faded); margin: 0 0 .5rem;
+}
+.site-foot ul { list-style: none; margin: 0; padding: 0; }
+.site-foot li { margin: .25rem 0; }
+.site-foot .note {
+  font-family: "IBM Plex Mono", monospace; font-size: .72rem; color: var(--faded);
+  padding: .8rem 0 1.4rem; border-top: 1px dotted var(--rule);
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 860px) {
+  .cards, .cards.two { grid-template-columns: 1fr 1fr; }
+  .documento { grid-template-columns: 1fr; }
+  .site-foot .cols { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .cards, .cards.two { grid-template-columns: 1fr; }
+  .regesto .voce { grid-template-columns: 1fr; }
+  .voce .riassunto { grid-column: 1; }
+}
+
+/* ---------- contenu Markdown (thème Hugo) ---------- */
+.prose img { max-width: 100%; height: auto; border: 1px solid var(--rule); background: var(--panel); padding: 6px; }
+.prose blockquote { margin: 0 0 1.2rem; padding: .2rem 0 .2rem 1rem; border-left: 2px solid var(--oro); font-style: italic; }
+.prose ul, .prose ol { padding-left: 1.4rem; }
+.prose table { border-collapse: collapse; margin: 1rem 0; }
+.prose th, .prose td { border: 1px solid var(--rule); padding: .4rem .7rem; text-align: left; }
+.prose th { font-family: "IBM Plex Mono", monospace; font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; color: var(--faded); }
+.prose code { font-family: "IBM Plex Mono", monospace; font-size: .85em; background: var(--panel); padding: .05rem .3rem; }
+.prose h1 { font-family: "Bodoni Moda", Didot, serif; font-weight: 600; font-size: 1.8rem; margin: 2.4rem 0 .6rem; }
+.prose hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+.page-tag { margin: 0 0 1.4rem; }
+
+/* ---------- liasse de documents (pile de feuillets + visionneuse) ---------- */
+.liasse {
+  display: block;
+  margin: 2.2rem auto;
+  cursor: zoom-in; max-width: 200px;
+}
+.liasse-pile { position: relative; display: block; width: 180px; margin: 0 auto; }
+.liasse-pile::before, .liasse-pile::after {
+  content: ""; position: absolute; inset: 0;
+  background: var(--panel); border: 1px solid var(--rule); z-index: 0;
+}
+.liasse-pile::before { transform: rotate(-3.2deg); }
+.liasse-pile::after  { transform: rotate(2.4deg); }
+.liasse-pile img {
+  position: relative; z-index: 1; display: block; width: 100%;
+  aspect-ratio: 3 / 4; object-fit: cover;
+  border: 1px solid var(--faded); background: var(--paper); padding: 0;
+  transition: transform .15s ease;
+}
+.liasse:hover .liasse-pile img,
+.liasse:focus-visible .liasse-pile img { transform: translateY(-3px); }
+.liasse-badge {
+  position: absolute; right: -10px; bottom: -8px; z-index: 2;
+  background: var(--rosso); color: var(--paper);
+  font-family: "IBM Plex Mono", monospace; font-size: .68rem;
+  letter-spacing: .06em; padding: .18rem .55rem; border-radius: 999px;
+}
+.liasse figcaption {
+  font-family: "IBM Plex Mono", monospace; font-size: .72rem;
+  color: var(--faded); margin-top: 1rem; text-align: center; line-height: 1.5;
+}
+.galerie-overlay {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(30, 25, 16, .93);
+  display: flex; align-items: center; justify-content: center;
+}
+.galerie-overlay[hidden] { display: none; }
+.galerie-overlay figure { margin: 0; max-width: 92vw; text-align: center; }
+.galerie-overlay img {
+  max-width: 92vw; max-height: 84vh; object-fit: contain;
+  border: none; padding: 0; background: transparent; cursor: default;
+}
+.galerie-overlay figcaption {
+  font-family: "IBM Plex Mono", monospace; font-size: .8rem;
+  color: var(--paper); margin-top: .8rem;
+}
+.galerie-overlay button {
+  position: absolute; background: none; border: none; color: var(--paper);
+  font-size: 3rem; line-height: 1; cursor: pointer; padding: .5rem 1rem;
+  font-family: "Bodoni Moda", serif;
+}
+.galerie-overlay button:hover { color: var(--oro); }
+.galerie-overlay .g-close { top: .5rem; right: 1rem; }
+.galerie-overlay .g-prev  { left: .5rem; top: 50%; transform: translateY(-50%); }
+.galerie-overlay .g-next  { right: .5rem; top: 50%; transform: translateY(-50%); }
+
+/* ---------- bannière d'entête de page (front matter: banniere) ---------- */
+.banniere { margin: 0 0 2.2rem; }
+.banniere img {
+  display: block; width: 100%; max-height: 340px; object-fit: cover;
+  border: none; padding: 0; background: none;
+}
+.banniere figcaption {
+  font-family: "IBM Plex Mono", monospace; font-size: .7rem;
+  color: var(--faded); text-align: right; margin-top: .45rem;
+}
+/* ---------- tailles d'images à la demande (#petite / #moyenne / #grande) ---------- */
+.img-petite  img { max-width: 240px; }
+.img-moyenne img { max-width: 420px; }
+.img-grande  img { max-width: 640px; }
