@@ -31,4 +31,4 @@ Le ricerche si appoggiano principalmente sui seguenti fondi digitalizzati:
 
 ## Contatti {#contact}
 
-Portate il cognome Tignola, possedete un documento, una fotografia o un ricordo di famiglia, oppure notate un errore? Ogni contributo, anche modesto, può far progredire la ricerca. Scrivetemi su Facebook!
+Portate il cognome Tignola, possedete un documento, una fotografia o un ricordo di famiglia, oppure notate un errore? Ogni contributo, anche modesto, può far progredire la ricerca. Scrivetemi su [Facebook](https://www.facebook.com/Rusty.slug/) !

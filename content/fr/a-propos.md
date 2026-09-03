@@ -32,4 +32,4 @@ Les recherches s'appuient principalement sur les fonds numérisés suivants :
 
 ## Contact {#contact}
 
-Vous portez le nom Tignola, vous détenez un document, une photographie ou un souvenir de famille, ou vous repérez une erreur ? Toute contribution, même modeste, peut faire avancer la recherche. Écrivez-moi sur Facebook !
+Vous portez le nom Tignola, vous détenez un document, une photographie ou un souvenir de famille, ou vous repérez une erreur ? Toute contribution, même modeste, peut faire avancer la recherche. Écrivez-moi sur [Facebook](https://www.facebook.com/Rusty.slug/) !
