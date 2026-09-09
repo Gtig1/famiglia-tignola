@@ -29,6 +29,6 @@ Le ricerche si appoggiano principalmente sui seguenti fondi digitalizzati:
 - **Archivio di Stato di Napoli e di Torino** — stato civile italiano, registri parrocchiali e processetti matrimoniali *(antenati.cultura.gov.it)*
 - **Archivio Diocesano di Napoli** — atti parrocchiali napoletani
 
-## Contatti {#contact}
+## Contact {#contact}
 
-Portate il cognome Tignola, possedete un documento, una fotografia o un ricordo di famiglia, oppure notate un errore? Ogni contributo, anche modesto, può far progredire la ricerca. Scrivetemi su [Facebook](https://www.facebook.com/Rusty.slug/) !
+Vous portez le nom Tignola, vous détenez un document, une photographie ou un souvenir de famille, ou vous repérez une erreur ? Toute contribution, même modeste, peut faire avancer la recherche. [Écrivez-moi](mailto:contact@tignola.fr?subject=Contribution%20Famiglia%20Tignola) !

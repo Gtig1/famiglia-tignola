@@ -17,6 +17,6 @@ Le plus ancien représentant connu est Giovanni Domenico Tignola, peintre actif 
 
 La génération suivante marque un tournant : Gaspare Tignola, fils de Giacomo Maria, naît en et embrasse la carrière militaire. Il atteint le grade de Major Commandant dans le Régiment Royal d'Artillerie de Sa Majesté le Roi de Sardaigne, et se lie d'une profonde amitié avec le Commandeur [Alessandro Vittorio Papacino d'Antoni](https://fr.wikipedia.org/wiki/Alessandro_Papacino_D%27Antoni) (1714–1786), figure majeure de l'artillerie sarde et directeur des Écoles Royales d'Artillerie et de Fortification de Turin, avec lequel il collaborera à de nombreux travaux savants. Homme de fortune, il possède deux corps de maison à Turin et une vigne à Moncalieri. Son testament, rédigé le 29 octobre 1783 est [disponible à la lecture sur ce site]({{< relref "testament-gaspare" >}}) et témoigne d'une personnalité généreuse et attachée à ses domestiques, à ses amis et aux œuvres de charité.
 <br><br>
-Un arbre généalogique estimatif est diponible <a href="/famiglia-tignola/arbre/#I0803#0">à cette adresse</a>.
+Un arbre généalogique estimatif est diponible <a href="/arbre/#I0803#0">à cette adresse</a>.
 <br><br><br><br>
 ##### La branche turinoise des Tignola n'est à ce jour pas reliée à notre arbre généalogique. Le nom commun, l'ancrage géographique cohérent dans le Piémont et la période d'activité permettent d'envisager une parenté avec la branche napolitaine, mais aucun document ne permet pour l'instant d'établir un lien entre les deux lignées.

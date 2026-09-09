@@ -16,6 +16,6 @@ Il più antico rappresentante conosciuto è Giovanni Domenico Tignola, pittore a
 
 La generazione successiva segnò una svolta: nacque Gaspare Tignola, figlio di Giacomo Maria, che intraprese la carriera militare. Raggiunse il grado di Maggiore nel Reggimento di Artiglieria Reale di Sua Maestà il Re di Sardegna e strinse una profonda amicizia con il Comandante [Alessandro Vittorio Papacino d'Antoni](https://it.wikipedia.org/wiki/Alessandro_Papacino_D%27Antoni) (1714-1786), figura di spicco dell'artiglieria sarda e direttore delle Regie Scuole di Artiglieria e Fortificazione di Torino, con il quale collaborò a numerose opere accademiche. Uomo benestante, possedeva due case a Torino e un vigneto a Moncalieri. Il suo testamento, redatto il 29 ottobre 1783, è [consultabile su questo sito]({{< relref "testamento-gaspare" >}}) e testimonia una personalità generosa, dedita ai suoi servitori, ai suoi amici e alle opere di beneficenza.
 <br><br>
-Un albero genealogico approssimativo è disponibile <a href="/famiglia-tignola/arbre/?lang=it#I0803#0">a questo indirizzo</a>.
+Un albero genealogico approssimativo è disponibile <a href="/arbre/?lang=it#I0803#0">a questo indirizzo</a>.
 <br><br><br><br>
 ##### Il ramo torinese della famiglia Tignola non è attualmente collegato al nostro albero genealogico. Il cognome comune, la presenza geografica costante in Piemonte e il periodo di attività suggeriscono una possibile parentela con il ramo napoletano, ma nessun documento ha ancora stabilito un collegamento tra i due lignaggi.

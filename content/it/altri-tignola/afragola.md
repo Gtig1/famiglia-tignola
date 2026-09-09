@@ -20,6 +20,6 @@ Come molte famiglie della pianura campana, diversi membri di questo ramo emigrar
 
 Il ramo Afragola non è attualmente collegato ad altri rami documentati dei Tignola, né al ramo torinese di artisti e militari, né al ramo napoletano di Gennaro. La concentrazione di famiglie con questo cognome in un raggio di meno di venti chilometri da Napoli suggerisce un'antica origine comune, che future ricerche potrebbero contribuire a ricostruire.
 <br><br>
-Un albero genealogico stimato è disponibile <a href="/famiglia-tignola/arbre/?lang=it#I0063#0">a questo indirizzo</a>.
+Un albero genealogico stimato è disponibile <a href="/arbre/?lang=it#I0063#0">a questo indirizzo</a>.
 <br><br><br><br>
 ##### Il ramo di Afragola della famiglia Tignola non è attualmente collegato al nostro albero genealogico. Il nome e la vicinanza geografica suggeriscono una parentela con il ramo napoletano, ma al momento non esiste alcun documento che stabilisca un collegamento tra i due lignaggi.

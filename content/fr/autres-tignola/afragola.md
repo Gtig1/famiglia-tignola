@@ -23,6 +23,6 @@ Comme beaucoup de familles de la plaine campanienne, plusieurs membres de cette 
 
 La branche d'Afragola n'est à ce jour pas reliée aux autres branches Tignola documentées — qu'il s'agisse de la branche turinoise des artistes et militaires, ou de la branche napolitaine de Gennaro. La concentration de familles portant ce nom dans un rayon de moins de vingt kilomètres autour de Naples suggère une origine commune ancienne, que les recherches futures pourraient permettre de retracer.
 <br><br>
-Un arbre généalogique estimatif est diponible <a href="/famiglia-tignola/arbre/#I0063#0">à cette adresse</a>.
+Un arbre généalogique estimatif est diponible <a href="/arbre/#I0063#0">à cette adresse</a>.
 <br><br><br><br>
 ##### La branche afragolesi des Tignola n'est à ce jour pas reliée à notre arbre généalogique. Le nom et leur proximité ne laisse douter une parenté avec la branche napolitaine, mais aucun document ne permet pour l'instant d'établir un lien entre les deux lignées.
