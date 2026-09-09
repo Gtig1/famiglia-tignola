@@ -1,6 +1,6 @@
 # Configuration Hugo — Famiglia Tignola
 
-baseURL = "https://gtig1.github.io/famiglia-tignola/"
+baseURL = "https://tignola.fr/"
 title = "Famiglia Tignola"
 theme = "tignola"
 
