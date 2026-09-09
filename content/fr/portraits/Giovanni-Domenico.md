@@ -4,7 +4,7 @@ translationKey: "gioanni-domenico"
 draft: false
 weight: 1
 lieu: "Turin, Italie"
-periode: "XVIIe siècle - Décès en 1664"
+periode: "xxxx - 1664"
 ---
 
 *Peintre de la cour de Savoie, premier prieur de l'Université des peintres de Turin.*<br><br>

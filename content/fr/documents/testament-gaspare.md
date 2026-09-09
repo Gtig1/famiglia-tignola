@@ -89,7 +89,3 @@ Notes<br>
 ¹ « Ore undici di Francia » : le Piémont du XVIIIe siècle utilisait deux systèmes horaires — à la française (minuit = zéro) et à l'italienne (coucher du soleil = zéro). Les actes notariaux précisaient lequel était utilisé.<br>
 ² Identifié avec très haute probabilité comme Alessandro Vittorio Papacino d'Antoni (1714–1786), Commendatore, Maggiore Generale di Fanteria, Aiutante Generale dell'Armata et Directeur Général des Écoles Royales d'Artillerie et de Fortification de Turin depuis 1755 — le plus grand expert d'artillerie du Royaume de Sardaigne à son époque, et auteur d'une série de traités publiés en collaboration directe avec Gaspare Tignola lui-même.
 
-
-## Analyse
-
-[À rédiger.]

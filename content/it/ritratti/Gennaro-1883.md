@@ -4,7 +4,7 @@ translationKey: "gennaro-1883"
 draft: false
 weight: 3
 lieu: "Napoli, Italia"
-periode: "1883-1946"
+periode: "1883 - 1946"
 ---
 
 *Alto dignitario della Chiesa napoletana, confessore della regina Elena d'Italia.*
