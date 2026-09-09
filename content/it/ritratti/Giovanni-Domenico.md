@@ -2,8 +2,9 @@
 title: "Il pittore Gioanni Domenico"
 translationKey: "gioanni-domenico"
 draft: false
+weight: 1
 lieu: "Torino, Italia"
-periode: "XVII secolo"
+periode: "XVII secolo - Morte nel 1664"
 ---
 
 

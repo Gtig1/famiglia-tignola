@@ -2,6 +2,7 @@
 title: "Piémont"
 translationKey: "piemont"
 draft: true
+weight: 2
 region: "Piémont"
 ---
 

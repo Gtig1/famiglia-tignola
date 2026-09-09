@@ -2,6 +2,7 @@
 title: "Il militare Gaspare"
 translationKey: "Gaspare-1710"
 draft: false
+weight: 2
 lieu: "Torino, Italia"
 periode: "1710 – 1784"
 ---

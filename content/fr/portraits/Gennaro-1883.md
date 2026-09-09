@@ -2,6 +2,7 @@
 title: "Le prélat Gennaro"
 translationKey: "gennaro-1883"
 draft: false
+weight: 3
 lieu: "Naples, Italie"
 periode: "1883-1946"
 ---

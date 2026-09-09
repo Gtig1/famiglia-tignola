@@ -2,6 +2,7 @@
 title: "Napoli"
 translationKey: "napoli"
 draft: false
+weight: 1
 region: "Campania"
 banniere: "/images/napoli/napoli.jpg"
 banniere_legende: "Il Golfo di Napoli con il Vesuvio e il Monte Somma, 1782-1794, Giovanni Battista Lusieri"
