@@ -5,6 +5,7 @@ draft: false
 weight: 2
 lieu: "Turin, Italie"
 periode: "1710 – 1784"
+banniere: "/images/portrait-gaspare/header.jpg"
 ---
 
 *Enseignant, auteur et officier supérieur dans l'armée du Royaume de Sardaigne.*<br><br>

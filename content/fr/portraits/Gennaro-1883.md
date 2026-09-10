@@ -4,7 +4,8 @@ translationKey: "gennaro-1883"
 draft: false
 weight: 3
 lieu: "Naples, Italie"
-periode: "1883-1946"
+periode: "1883 - 1946"
+banniere: "/images/gennaro-1883/header.jpg"
 ---
 
 *Haut dignitaire de l'église napolitaine, confesseur de la reine Elena d'Italie.*
@@ -21,7 +22,7 @@ La tradition familiale a conservé le souvenir d'un épisode qui en dit sans dou
 Gennaro Tignola s'éteignit à Naples en 1946, l'année même où la monarchie italienne disparut. Il laisse le souvenir d'un prêtre discret, infatigable et profondément humain, qui consacra toute son existence au service des âmes, qu'elles appartiennent aux plus humbles ou aux plus illustres.
 
 <br><br><br>
-![Gennaro Tignola](/images/gennaro-1883.jpg "Gennaro Tignola vers 1930")
+![Gennaro Tignola](/images/gennaro-1883/gennaro-1883.jpg "Gennaro Tignola vers 1930")
 <br><br><br>
 Liste des fonctions listées dans le bulletin ecclésiastique de l’archidiocèse de Naples :
 (Édition 1946, pages 102-104)

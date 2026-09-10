@@ -5,6 +5,7 @@ draft: false
 weight: 3
 lieu: "Napoli, Italia"
 periode: "1883 - 1946"
+banniere: "/images/gennaro-1883/header.jpg"
 ---
 
 *Alto dignitario della Chiesa napoletana, confessore della regina Elena d'Italia.*
@@ -21,7 +22,7 @@ La tradizione familiare ha conservato il ricordo di un episodio che dice probabi
 Gennaro Tignola si spense a Napoli nel 1946, l'anno stesso in cui la monarchia italiana scomparve. Lascia il ricordo di un sacerdote discreto, instancabile e profondamente umano, che consacrò tutta la sua esistenza al servizio delle anime, appartenessero esse ai più umili o ai più illustri.
 
 <br><br><br>
-![Gennaro Tignola](/images/gennaro-1883.jpg "Gennaro Tignola intorno al 1930")
+![Gennaro Tignola](/images/gennaro-1883/gennaro-1883.jpg "Gennaro Tignola intorno al 1930")
 <br><br><br>
 Elenco delle funzioni riportate nel Bollettino ecclesiastico dell'arcidiocesi di Napoli:
 (Edizione 1946, pagine 102-104)

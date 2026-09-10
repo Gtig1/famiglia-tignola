@@ -5,6 +5,7 @@ draft: false
 weight: 1
 lieu: "Torino, Italia"
 periode: "xxxx - 1664"
+banniere: "/images/gvndmc/piazzatorino.jpg"
 ---
 
 
@@ -32,3 +33,25 @@ Un'altra opera ci è nota, ma per una via più inattesa. Nel luglio del 1665 alc
 Si spense a Torino il 13 maggio 1664, lasciando sette figli: Angela Lucia, di diciassette anni, Gaspare Baldesare, di quindici, Maddalena Lucia, di dieci, e poi Gioanni Battista, Anna Maria e Gioseppe Antonio, tutti e tre ancora in tenera età. Nel 1667 la Compagnia di San Luca celebrò i funerali collettivi di quattro dei suoi confratelli scomparsi, tra i quali il nostro pittore Gioanni Domenico.
 <br><br>
 Della sua opera non sopravvive oggi alcun dipinto identificato con certezza. Restano righe di conti, un registro di confraternita, una testimonianza di canonizzazione. Il suo percorso illustra quello di quegli artisti la cui intera produzione è stata assorbita dalle istituzioni che servivano, al punto che il loro nome sopravvive soltanto negli archivi della spesa. Fu tuttavia, ai suoi tempi, uno dei pittori a cui la corte affidava le proprie immagini più delicate, e il primo priore conosciuto di quella corporazione che sarebbe divenuta l'Accademia di Belle Arti di Torino.
+
+
+{{< galerie legende="Serie di ritratti copiati da Gioanni Domenico Tignola tra il 1658 e il 1659" >}}
+/images/gvndmc/1.jpg
+/images/gvndmc/2.jpg
+/images/gvndmc/3.jpg
+/images/gvndmc/4.jpg
+/images/gvndmc/5.jpg
+/images/gvndmc/6.jpg
+/images/gvndmc/7.jpg
+/images/gvndmc/8.jpg
+/images/gvndmc/9.jpg
+/images/gvndmc/10.jpg
+/images/gvndmc/11.jpg
+/images/gvndmc/12.jpg
+/images/gvndmc/13.jpg
+/images/gvndmc/14.jpg
+/images/gvndmc/15.jpg
+/images/gvndmc/16.jpg
+/images/gvndmc/17.jpg
+/images/gvndmc/18.jpg
+{{< /galerie >}}

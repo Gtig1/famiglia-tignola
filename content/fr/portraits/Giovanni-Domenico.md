@@ -5,7 +5,10 @@ draft: false
 weight: 1
 lieu: "Turin, Italie"
 periode: "xxxx - 1664"
+banniere: "/images/gvndmc/piazzatorino.jpg"
+
 ---
+
 
 *Peintre de la cour de Savoie, premier prieur de l'Université des peintres de Turin.*<br><br>
 ## Turin, XVIIe siècle
@@ -32,3 +35,24 @@ Une autre œuvre nous est connue mais celle-ci par un chemin plus inattendu. En 
 Il s'éteignit à Turin le 13 mai 1664 laissant derrière lui sept enfants : Angela Lucia, dix-sept ans, Gaspare Baldesare, quinze ans, Maddalena Lucia, dix ans, puis Gioanni Battista, Anna Maria et Gioseppe Antonio, tous trois encore en bas âge. En 1667, la Compagnie de Saint-Luc célébra les funérailles collectives de quatre de ses frères disparus, dont notre peintre Gioanni Domenico.
 <br><br>
 De son œuvre, il ne subsiste aujourd'hui aucun tableau identifié avec certitude. Il reste des lignes de comptes, un registre de confrérie, un témoignage de canonisation. Son parcours illustre celui de ces artistes dont la production entière a été absorbée par les institutions qu'ils servaient, au point que leur nom ne survit que dans les archives de la dépense. Il fut pourtant, en son temps, l'un des peintres à qui la cour confiait ses images les plus sensibles, et le premier prieur connu de la corporation qui devait devenir l'Académie des Beaux-Arts de Turin.
+
+{{< galerie legende="Série de portraits copiées par Gioanni Domenico Tignola entre 1658 et 1659" >}}
+/images/gvndmc/1.jpg
+/images/gvndmc/2.jpg
+/images/gvndmc/3.jpg
+/images/gvndmc/4.jpg
+/images/gvndmc/5.jpg
+/images/gvndmc/6.jpg
+/images/gvndmc/7.jpg
+/images/gvndmc/8.jpg
+/images/gvndmc/9.jpg
+/images/gvndmc/10.jpg
+/images/gvndmc/11.jpg
+/images/gvndmc/12.jpg
+/images/gvndmc/13.jpg
+/images/gvndmc/14.jpg
+/images/gvndmc/15.jpg
+/images/gvndmc/16.jpg
+/images/gvndmc/17.jpg
+/images/gvndmc/18.jpg
+{{< /galerie >}}

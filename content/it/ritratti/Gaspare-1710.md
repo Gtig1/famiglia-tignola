@@ -5,6 +5,7 @@ draft: false
 weight: 2
 lieu: "Torino, Italia"
 periode: "1710 – 1784"
+banniere: "/images/portrait-gaspare/header.jpg"
 ---
 
 *Insegnante, autore e ufficiale superiore nell'esercito del Regno di Sardegna.*<br><br>
