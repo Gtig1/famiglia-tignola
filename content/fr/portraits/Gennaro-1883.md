@@ -38,3 +38,5 @@ Liste des fonctions listées dans le bulletin ecclésiastique de l’archidiocè
 9. Confesseur du séminaire de San Aspreno de Naples,<br>
 10. Directeur spirituel des Filles de Marie,<br>
 11. Directeur spirituel des Sœurs catéchistes de Casoria.
+
+{{< personne id="I0601" nom="Gennaro Tignola" dates="1883 - 1946" photo="/images/gennaro-1883/gennaro-1883.jpg" >}}

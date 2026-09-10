@@ -55,3 +55,5 @@ Della sua opera non sopravvive oggi alcun dipinto identificato con certezza. Res
 /images/gvndmc/17.jpg
 /images/gvndmc/18.jpg
 {{< /galerie >}}
+
+{{< personne id="I0803" nom="Gioanni Domenico Tignola" dates="xxxx - 1664" photo="/images/silhouette.jpg" >}}

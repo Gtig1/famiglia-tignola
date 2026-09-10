@@ -37,3 +37,5 @@ Aujourd'hui, Gaspare Tignola demeure une figure discrète de l'histoire des scie
 Gaspare Giacomo Tignola (1719–1784) légua une maison à l'Ospizio di Carità de Turin. C'est en reconnaissance de ce legs que la Congregazione di Carità commanda son effigie au sculpteur turinois Giovanni Battista Bernero (1736–1796). Le buste fut réglé en janvier 1792, soit huit ans après la mort du modèle. La commande couvrait également les armoiries, la plaque et son inscription.
 <br><br>
 Placé d'abord dans les anciens locaux du Regio Ospizio di Carità, sur la Contrada di Po, le buste fut transféré à son emplacement actuel à la fin du mois de juillet 1888 par le sculpteur Arturo Rossi, avec la plaque et le blason qui l'accompagnaient. Restauré à l'occasion de la grande exposition turinoise de 1980 consacrée à la Cultura figurativa e architettonica negli Stati del Re di Sardegna.
+
+{{< personne id="I0791" nom="Gaspare (Baldasare Francesco) Tignola" dates="1710 – 1784" photo="/images/portrait-gaspare/portrait.jpg" >}}

@@ -36,3 +36,5 @@ Oggi Gaspare Tignola rimane una figura discreta della storia delle scienze milit
 Gaspare Giacomo Tignola (1719–1784) lasciò una casa all'Ospizio di Carità di Torino. Fu in riconoscimento di questo lascito che la Congregazione di Carità commissionò la sua effigie allo scultore torinese Giovanni Battista Bernero (1736–1796). Il busto fu saldato nel gennaio 1792, ossia otto anni dopo la morte del soggetto. La commissione comprendeva anche le armi, la lapide e la sua iscrizione.
 <br><br>
 Collocato inizialmente nei locali dell'antico Regio Ospizio di Carità, in Contrada di Po, il busto fu trasferito nella sua sede attuale alla fine del luglio 1888 dallo scultore Arturo Rossi, insieme alla lapide e al blasone che lo accompagnavano. Restaurato in occasione della grande esposizione torinese del 1980 dedicata alla <em>Cultura figurativa e architettonica negli Stati del Re di Sardegna</em>.
+
+{{< personne id="I0791" nom="Gaspare (Baldasare Francesco) Tignola" dates="1710 – 1784" photo="/images/portrait-gaspare/portrait.jpg" >}}

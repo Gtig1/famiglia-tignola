@@ -44,3 +44,5 @@ Quest'ultima cifra ferma lo sguardo. Trentaquattro giorni di mare, là dove la t
 /images/cretic/manifeste-1917.jpg | Arrivo a Boston, 15 giugno 1917
 /images/cretic/manifeste-1918.jpg | Arrivo a Boston, 30 gennaio 1918
 {{< /galerie >}}
+
+{{< personne id="I0015" nom="Giovanni Tignola" dates="1881–1968" photo="/images/Giovanni Tignola (1881) retouchée.jpg" >}}

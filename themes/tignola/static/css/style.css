@@ -335,3 +335,29 @@ hr.sep { border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
 .img-petite  img { max-width: 240px; }
 .img-moyenne img { max-width: 420px; }
 .img-grande  img { max-width: 640px; }
+
+/* ---------- carte-personne (lien vers l'arbre) ---------- */
+.personne-carte {
+  display: flex; align-items: center; gap: 1.2rem; max-width: var(--measure);
+  margin: 2.4rem 0; padding: 1rem 1.3rem;
+  background: var(--panel); border: 1px solid var(--rule);
+  text-decoration: none; color: var(--ink); transition: border-color .15s ease;
+}
+.personne-carte:hover { border-color: var(--rosso); }
+.personne-photo {
+  flex: none; width: 90px; height: 90px; border-radius: 50%; overflow: hidden;
+  border: 1px solid var(--faded); background: var(--paper);
+}
+.personne-photo img { width: 100%; height: 100%; object-fit: cover; display: block; padding: 0; border: none; }
+.personne-texte { display: flex; flex-direction: column; gap: .25rem; line-height: 1.3; }
+.personne-nom {
+  font-family: "Bodoni Moda", Didot, serif; font-weight: 500; font-size: 1.35rem; color: var(--ink);
+}
+.personne-dates {
+  font-family: "IBM Plex Mono", monospace; font-size: .8rem; color: var(--rosso); letter-spacing: .04em;
+}
+.personne-lien {
+  font-family: "IBM Plex Mono", monospace; font-size: .74rem; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--faded);
+}
+.personne-carte:hover .personne-lien { color: var(--rosso); }

@@ -38,3 +38,5 @@ Elenco delle funzioni riportate nel Bollettino ecclesiastico dell'arcidiocesi di
 9. Confessore del Seminario di San Aspreno di Napoli,<br>
 10. Direttore spirituale delle Figlie di Maria,<br>
 11. Direttore spirituale delle Suore catechiste di Casoria.
+
+{{< personne id="I0601" nom="Gennaro Tignola" dates="1883 - 1946" photo="/images/gennaro-1883/gennaro-1883.jpg" >}}

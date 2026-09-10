@@ -56,3 +56,5 @@ De son œuvre, il ne subsiste aujourd'hui aucun tableau identifié avec certitud
 /images/gvndmc/17.jpg
 /images/gvndmc/18.jpg
 {{< /galerie >}}
+
+{{< personne id="I0803" nom="Gioanni Domenico Tignola" dates="xxxx - 1664" photo="/images/silhouette.jpg" >}}

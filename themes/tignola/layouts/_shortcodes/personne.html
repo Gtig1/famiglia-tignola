@@ -1,0 +1,13 @@
+{{- /* Carte-personne : photo + nom + dates, cliquable vers l'arbre centré sur elle. */ -}}
+{{- $id := .Get "id" -}}
+{{- $lien := printf "%s#%s#0" ("arbre/index.html" | relURL) $id -}}
+{{- $photo := .Get "photo" | default "/images/silhouette.jpg" -}}
+{{- if hasPrefix $photo "/" }}{{ $photo = relURL (strings.TrimPrefix "/" $photo) }}{{ end -}}
+<a class="personne-carte" href="{{ $lien }}" target="_blank" rel="noopener">
+  <span class="personne-photo"><img src="{{ $photo }}" alt="{{ .Get "nom" }}" loading="lazy"></span>
+  <span class="personne-texte">
+    <span class="personne-nom">{{ .Get "nom" }}</span>
+    {{ with .Get "dates" }}<span class="personne-dates">{{ . }}</span>{{ end }}
+    <span class="personne-lien">{{ if eq .Page.Language.Lang "it" }}Vedi nell'albero ↗{{ else }}Voir dans l'arbre ↗{{ end }}</span>
+  </span>
+</a>

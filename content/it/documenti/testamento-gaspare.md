@@ -88,7 +88,4 @@ Note<br>
 ¹ « Su le undici ore alla Francese » : il Piemonte del XVIII secolo utilizzava due sistemi orari — alla francese (mezzanotte = ora zero) e all'italiana (tramonto = ora zero). Gli atti notarili precisavano quale sistema fosse utilizzato.<br>
 ² Identificato con altissima probabilità come Alessandro Vittorio Papacino d'Antoni (1714–1786), Commendatore, Maggiore Generale di Fanteria, Aiutante Generale dell'Armata e Direttore Generale delle Regie Scuole d'Artiglieria e Fortificazione di Torino dal 1755 — il massimo esperto d'artiglieria del Regno di Sardegna del suo tempo, e autore di una serie di trattati pubblicati in diretta collaborazione con lo stesso Gaspare Tignola.
 
-
-## Analisi
-
-[Da redigere.]
+{{< personne id="I0791" nom="Gaspare (Baldasare Francesco) Tignola" dates="1710 – 1784" photo="/images/portrait-gaspare/portrait.jpg" >}}
