@@ -3,7 +3,7 @@ title: "Giovanni sur le SS Cretic • les traversées de guerre"
 translationKey: "giovanni-cretic"
 draft: false
 lieu: "Naples · Boston"
-periode: "1916–1918"
+periode: "1916 – 1918"
 banniere: "/images/cretic/sscretic.jpg"
 
 ---
@@ -45,4 +45,4 @@ Ce dernier chiffre arrête le regard. Trente-quatre jours de mer, là où la tra
 /images/cretic/manifeste-1918.jpg | Arrivée à Boston, 30 janvier 1918
 {{< /galerie >}}
 
-{{< personne id="I0015" nom="Giovanni Tignola" dates="1881–1968" photo="/images/Giovanni Tignola (1881) retouchée.jpg" >}}
+{{< personne id="I0015" nom="Giovanni Tignola" dates="1881 – 1968" photo="/images/Giovanni Tignola (1881) retouchée.jpg" >}}
