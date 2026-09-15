@@ -1,5 +1,5 @@
 ---
-title: "Michel Devochelle • une mort dans l'Occupation"
+title: "Michel Devochelle, une mort dans l'Occupation"
 translationKey: "michel-devochelle"
 draft: false
 lieu: "Calais · Polincove"

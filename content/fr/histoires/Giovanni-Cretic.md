@@ -1,5 +1,5 @@
 ---
-title: "Giovanni sur le SS Cretic • les traversées de guerre"
+title: "Giovanni sur le SS Cretic, les traversées de guerre"
 translationKey: "giovanni-cretic"
 draft: false
 lieu: "Naples · Boston"
