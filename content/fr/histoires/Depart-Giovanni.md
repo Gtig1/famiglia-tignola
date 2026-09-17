@@ -45,3 +45,5 @@ Le parcours de la famille se lit ensuite dans ses adresses successives et dans l
 ## L'empreinte d'un départ
 
 Giovanni resta plusieurs années en France avant de regagner Naples. Mais la rupture, elle, était consommée : de ce départ naquit toute une branche française de la famille. Les enfants nés à Arras ou à Hirson, les mariages contractés dans le Calaisis et en Vendée, les Tignola que l'on trouve aujourd'hui en France de l'Ouest : tous descendent, d'une manière ou d'une autre, de cette décision prise un jour à Naples, au lendemain d'un héritage mal partagé.
+
+{{< personne id="I0015" nom="Giovanni Tignola" dates="1881 – 1968" photo="/images/Giovanni Tignola (1881) retouchée.jpg" >}}

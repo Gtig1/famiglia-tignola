@@ -44,3 +44,5 @@ Il percorso della famiglia si legge poi nei suoi indirizzi successivi e nei luog
 ## L'impronta di una partenza
 
 Giovanni restò diversi anni in Francia prima di tornare a Napoli. Ma la rottura, ormai, era consumata: da quella partenza nacque un intero ramo francese della famiglia. I figli nati ad Arras o a Hirson, i matrimoni contratti nel Calaisis e in Vandea, i Tignola che si trovano oggi nella Francia dell'Ovest: tutti discendono, in un modo o nell'altro, da quella decisione presa un giorno a Napoli, all'indomani di un'eredità mal divisa.
+
+{{< personne id="I0015" nom="Giovanni Tignola" dates="1881 – 1968" photo="/images/Giovanni Tignola (1881) retouchée.jpg" >}}
