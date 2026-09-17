@@ -1,7 +1,7 @@
 ---
-title: "Photographies"
+title: "Fotografie"
 translationKey: "foto"
 draft: false
 ---
 
-*Les visages de la famille, au fil des décennies.*
+*I volti della famiglia, nel corso dei decenni.*
