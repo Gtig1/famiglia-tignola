@@ -9,14 +9,14 @@ personnes:
   - id: "I0015"
     nom: "Giovanni Tignola"
     dates: "1881-1968"
-    position: "à gauche"
+    position: "a sinstra"
     photo: "/images/Giovanni Tignola (1881) retouchée.jpg"
-  - nom: "Inconnu"
-    position: "au centre"
+  - nom: "Sconosciuto"
+    position: "al centro"
   - id: "I0293"
     nom: "Vincenzo Tignola"
     dates: "1907-1994"
-    position: "à droite"
+    position: "a destra"
     photo: "/images/Vincenzo Tignola.png"
 ---
 
