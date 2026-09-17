@@ -8,6 +8,7 @@ weight: 4
 lieu: "Naples · France"
 periode: "1881 - 1968"
 banniere: "/images/depart-giovanni/header.jpg"
+banniere_legende: "Arrivée du train de Normandie, gare Saint-Lazare, 1877, Claude Monet"
 une: true
 ---
 

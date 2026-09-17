@@ -8,6 +8,7 @@ weight: 1
 lieu: "Turin, Italie"
 periode: "xxxx - 1664"
 banniere: "/images/gvndmc/piazzatorino.jpg"
+banniere_legende: "Veduta di Piazza Vittorio (Torino), 1850, Enrico Gonin"
 une: false
 ---
 

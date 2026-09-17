@@ -8,6 +8,7 @@ weight: 3
 lieu: "Naples, Italie"
 periode: "1883 - 1946"
 banniere: "/images/gennaro-1883/header.jpg"
+banniere_legende: "Triomphe de saint Ignace de Loyola, Andrea Pozzo, 1685, Église de Sant'Ignazio, Rome"
 une: false
 ---
 

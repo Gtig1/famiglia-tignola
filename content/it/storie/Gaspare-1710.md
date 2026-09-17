@@ -8,6 +8,7 @@ nouveau: false
 lieu: "Torino, Italia"
 periode: "1710 – 1784"
 banniere: "/images/portrait-gaspare/header.jpg"
+banniere_legende: "La battaglia di Guastalla, 1743-1745, Jan Peeter Verdussen"
 ---
 
 *Insegnante, autore e ufficiale superiore nell'esercito del Regno di Sardegna.*<br><br>

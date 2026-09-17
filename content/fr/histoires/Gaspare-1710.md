@@ -8,6 +8,7 @@ weight: 2
 lieu: "Turin, Italie"
 periode: "1710 – 1784"
 banniere: "/images/portrait-gaspare/header.jpg"
+banniere_legende: "La battaglia di Guastalla, 1743-1745, Jan Peeter Verdussen"
 une: false
 ---
 

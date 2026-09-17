@@ -8,6 +8,7 @@ weight: 5
 lieu: "Naples · Boston"
 periode: "1916 – 1918"
 banniere: "/images/cretic/sscretic.jpg"
+banniere_legende: "Carte postale du S.S. Cretic, 1904"
 une: true
 ---
 

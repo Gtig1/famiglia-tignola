@@ -8,6 +8,7 @@ weight: 4
 lieu: "Napoli · Francia"
 periode: "1881 - 1968"
 banniere: "/images/depart-giovanni/header.jpg"
+banniere_legende: "Arrivée du train de Normandie, gare Saint-Lazare, 1877, Claude Monet"
 ---
 
 *Come una discordia ereditaria strappò una famiglia napoletana alla sua città e la condusse sulle strade del Nord.*

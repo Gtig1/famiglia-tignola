@@ -8,6 +8,7 @@ nouveau: true
 lieu: "Calais"
 periode: "1910 – 1941"
 banniere: "/images/michel/michel.jpg"
+banniere_legende: "Recinzioni di filo spinato vicino a Menin, Francia, gennaio 1940"
 ---
 
 *Un venditore ambulante travolto dalla guerra alla vigilia dei suoi trentun anni.*

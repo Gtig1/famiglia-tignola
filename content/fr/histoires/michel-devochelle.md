@@ -8,6 +8,7 @@ weight: 6
 lieu: "Calais"
 periode: "1910 – 1941"
 banniere: "/images/michel/michel.jpg"
+banniere_legende: "Lignes fil de fer barbelé près de Menin, en France, janvier 1940"
 une: true
 ---
 

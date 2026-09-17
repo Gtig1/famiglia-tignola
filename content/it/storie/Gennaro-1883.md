@@ -8,6 +8,7 @@ nouveau: false
 lieu: "Napoli, Italia"
 periode: "1883 - 1946"
 banniere: "/images/gennaro-1883/header.jpg"
+banniere_legende: "Trionfo di Sant'Ignazio di Loyola, Andrea Pozzo, 1685, Chiesa di Sant'Ignazio, Roma"
 ---
 
 *Alto dignitario della Chiesa napoletana, confessore della regina Elena d'Italia.*

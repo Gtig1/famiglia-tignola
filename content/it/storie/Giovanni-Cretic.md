@@ -8,6 +8,7 @@ nouveau: true
 lieu: "Napoli · Boston"
 periode: "1916–1918"
 banniere: "/images/cretic/sscretic.jpg"
+banniere_legende: "Cartolina dalla S.S. Cretic, 1904"
 
 ---
 
