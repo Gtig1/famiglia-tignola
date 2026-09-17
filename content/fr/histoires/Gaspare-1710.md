@@ -1,11 +1,14 @@
 ---
 title: "Le militaire Gaspare"
+genre: "Portrait"
+nouveau: false
 translationKey: "Gaspare-1710"
 draft: false
 weight: 2
 lieu: "Turin, Italie"
 periode: "1710 – 1784"
 banniere: "/images/portrait-gaspare/header.jpg"
+une: false
 ---
 
 *Enseignant, auteur et officier supérieur dans l'armée du Royaume de Sardaigne.*<br><br>

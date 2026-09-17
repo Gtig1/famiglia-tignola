@@ -2,6 +2,7 @@
 title: "Le nom Tignola"
 translationKey: "cognome"
 draft: false
+banniere: "/images/napoli/header-tignola.jpg"
 ---
 
 

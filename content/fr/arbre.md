@@ -4,7 +4,7 @@ translationKey: "albero"
 draft: false
 ---
 
-*Plus de 1 200 individus, 550 familles — la lignée napolitaine et ses alliances.*
+*Plus de 1 700 individus, 750 familles — la lignée napolitaine et ses alliances.*
 
 <iframe src="../../arbre/index.html" title="Arbre généalogique interactif"
         style="width:100%;height:75vh;border:1px solid var(--rule);background:var(--paper)"

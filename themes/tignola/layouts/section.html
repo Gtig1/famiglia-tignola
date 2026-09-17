@@ -20,9 +20,8 @@
 <div class="regesto">
   {{ range .Pages }}
   <div class="voce">
-    <span class="data">{{ with .Params.lieu }}{{ . }}{{ end }}{{ with .Params.periode }} · {{ . }}{{ end }}{{ with .Params.annee }} · {{ . }}{{ end }}</span>
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-    {{ if .Draft }}<span class="tag todo">{{ i18n "todo" }}</span>{{ else }}<span></span>{{ end }}
+    <span class="data">{{ with .Params.genre }}<span class="genre">{{ . }}</span>{{ end }}{{ with .Params.lieu }}{{ . }}{{ end }}{{ with .Params.periode }} · {{ . }}{{ end }}{{ with .Params.annee }} · {{ . }}{{ end }}</span>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Params.nouveau }} <span class="badge-neuf">{{ if eq .Page.Language.Lang "it" }}nuovo{{ else }}nouveau{{ end }}</span>{{ end }}</h3>    {{ if .Draft }}<span class="tag todo">{{ i18n "todo" }}</span>{{ else }}<span></span>{{ end }}
     <p class="riassunto">{{ .Summary | plainify | truncate 140 }}</p>
   </div>
   {{ end }}

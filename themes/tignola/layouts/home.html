@@ -9,8 +9,7 @@
   <div class="rule-double thin"></div>
 </div>
 
-{{ $stories := where .Site.RegularPages "Section" (i18n "storiesSection") }}
-{{ with first 3 $stories }}
+{{ $stories := where .Site.RegularPages "Params.une" true }}{{ with first 3 $stories }}
 <p class="eyebrow"><span class="n">{{ i18n "series" }} I</span> · {{ i18n "featured" }}</p>
 <div class="cards">
   {{ range . }}

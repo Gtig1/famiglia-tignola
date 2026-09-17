@@ -4,7 +4,7 @@ translationKey: "albero"
 draft: false
 ---
 
-*Oltre 1 200 individui, 550 famiglie — la linea napoletana e le sue alleanze.*
+*Oltre 1 700 individui, 750 famiglie — la linea napoletana e le sue alleanze.*
 
 <iframe src="../../arbre/index.html?lang=it" title="Albero genealogico interattivo"
         style="width:100%;height:75vh;border:1px solid var(--rule);background:var(--paper)"

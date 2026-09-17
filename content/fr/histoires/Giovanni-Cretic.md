@@ -1,11 +1,14 @@
 ---
 title: "Giovanni sur le SS Cretic, les traversées de guerre"
 translationKey: "giovanni-cretic"
+genre: "Histoire"
+nouveau: true
 draft: false
+weight: 5
 lieu: "Naples · Boston"
 periode: "1916 – 1918"
 banniere: "/images/cretic/sscretic.jpg"
-
+une: true
 ---
 
 

@@ -3,6 +3,8 @@ title: "Il prelato Gennaro"
 translationKey: "gennaro-1883"
 draft: false
 weight: 3
+genre: "Ritratto"
+nouveau: false
 lieu: "Napoli, Italia"
 periode: "1883 - 1946"
 banniere: "/images/gennaro-1883/header.jpg"

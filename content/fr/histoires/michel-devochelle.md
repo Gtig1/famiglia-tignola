@@ -1,10 +1,14 @@
 ---
 title: "Michel Devochelle, une mort dans l'Occupation"
 translationKey: "michel-devochelle"
+genre: "Histoire"
+nouveau: true
 draft: false
-lieu: "Calais · Polincove"
+weight: 6
+lieu: "Calais"
 periode: "1910 – 1941"
 banniere: "/images/michel/michel.jpg"
+une: true
 ---
 
 *Un marchand ambulant emporté par la guerre à la veille de ses trente et un ans.*

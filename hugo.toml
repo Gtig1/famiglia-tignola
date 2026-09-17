@@ -27,21 +27,21 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/le-nom"
       weight = 2
     [[languages.fr.menus.main]]
-      name = "Portraits"
-      pageRef = "/portraits"
-      weight = 3
-    [[languages.fr.menus.main]]
       name = "Histoires"
       pageRef = "/histoires"
-      weight = 4
+      weight = 3
     [[languages.fr.menus.main]]
       name = "Lieux"
       pageRef = "/lieux"
-      weight = 5
+      weight = 4
     [[languages.fr.menus.main]]
       name = "L’arbre"
       pageRef = "/arbre"
-      weight = 6
+      weight = 5
+     [[languages.fr.menus.main]]
+      name = "Photographies"
+      pageRef = "/photographies"
+      weight = 6     
     [[languages.fr.menus.main]]
       name = "Documents"
       pageRef = "/documents"
@@ -67,21 +67,21 @@ disableKinds = ["taxonomy", "term"]
       pageRef = "/il-cognome"
       weight = 2
     [[languages.it.menus.main]]
-      name = "Ritratti"
-      pageRef = "/ritratti"
-      weight = 3
-    [[languages.it.menus.main]]
       name = "Storie"
       pageRef = "/storie"
-      weight = 4
+      weight = 3
     [[languages.it.menus.main]]
       name = "Luoghi"
       pageRef = "/luoghi"
-      weight = 5
+      weight = 4
     [[languages.it.menus.main]]
       name = "L’albero"
       pageRef = "/albero"
-      weight = 6
+      weight = 5
+    [[languages.it.menus.main]]
+      name = "Fotografie"
+      pageRef = "/fotografie"
+      weight = 6     
     [[languages.it.menus.main]]
       name = "Documenti"
       pageRef = "/documenti"

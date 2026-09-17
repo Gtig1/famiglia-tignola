@@ -3,6 +3,8 @@ title: "Il pittore Gioanni Domenico"
 translationKey: "gioanni-domenico"
 draft: false
 weight: 1
+genre: "Ritratto"
+nouveau: false
 lieu: "Torino, Italia"
 periode: "xxxx - 1664"
 banniere: "/images/gvndmc/piazzatorino.jpg"

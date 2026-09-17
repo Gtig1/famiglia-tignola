@@ -2,7 +2,10 @@
 title: "Michel Devochelle, una morte sotto l'Occupazione"
 translationKey: "michel-devochelle"
 draft: false
-lieu: "Calais · Polincove"
+weight: 6
+genre: "Storia"
+nouveau: true
+lieu: "Calais"
 periode: "1910 – 1941"
 banniere: "/images/michel/michel.jpg"
 ---

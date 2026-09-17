@@ -3,6 +3,8 @@ title: "Il militare Gaspare"
 translationKey: "Gaspare-1710"
 draft: false
 weight: 2
+genre: "Ritratto"
+nouveau: false
 lieu: "Torino, Italia"
 periode: "1710 – 1784"
 banniere: "/images/portrait-gaspare/header.jpg"

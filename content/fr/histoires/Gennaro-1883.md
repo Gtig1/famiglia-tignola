@@ -1,11 +1,14 @@
 ---
 title: "Le prélat Gennaro"
+genre: "Portrait"
+nouveau: false
 translationKey: "gennaro-1883"
 draft: false
 weight: 3
 lieu: "Naples, Italie"
 periode: "1883 - 1946"
 banniere: "/images/gennaro-1883/header.jpg"
+une: false
 ---
 
 *Haut dignitaire de l'église napolitaine, confesseur de la reine Elena d'Italie.*

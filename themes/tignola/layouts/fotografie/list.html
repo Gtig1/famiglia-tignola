@@ -1,0 +1,17 @@
+{{ define "main" }}
+<p class="eyebrow">{{ .Title }}</p>
+<h1 class="page-title">{{ .Title }}</h1>
+<div class="prose" style="margin-bottom:2.4rem">{{ .Content }}</div>
+{{ range .Pages.GroupByParamDate "prise" "2006" "asc" }}
+  {{ $dec := mul (div (int .Key) 10) 10 }}
+  <p class="eyebrow decennie">{{ $dec }}s</p>
+  <div class="photo-grille">
+    {{ range .Pages }}
+    <a class="photo-vignette" href="{{ .RelPermalink }}">
+      {{ with .Params.image }}<img src="{{ if hasPrefix . "/" }}{{ relURL (strings.TrimPrefix "/" .) }}{{ else }}{{ . }}{{ end }}" alt="" loading="lazy">{{ end }}
+      <span class="photo-legende">{{ .Title }}{{ with .Params.prise }}<span class="photo-date">{{ dateFormat "2006" . }}</span>{{ end }}</span>
+    </a>
+    {{ end }}
+  </div>
+{{ end }}
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" }}
+<p class="eyebrow">{{ with .Params.lieu }}{{ . }}{{ end }}{{ with .Params.prise }} · {{ dateFormat "2006" . }}{{ end }}</p>
+<h1 class="page-title">{{ .Title }}</h1>
+{{ with .Params.image }}
+<figure class="photo-pleine">
+  <img src="{{ if hasPrefix . "/" }}{{ relURL (strings.TrimPrefix "/" .) }}{{ else }}{{ . }}{{ end }}" alt="">
+</figure>
+{{ end }}
+<div class="prose">{{ .Content }}</div>
+{{ with .Params.personnes }}
+<p class="eyebrow" style="margin-top:2.4rem">{{ if eq $.Page.Language.Lang "it" }}Persone ritratte{{ else }}Personnes présentes{{ end }}</p>
+<div class="personnes-liste">
+  {{ range . }}
+  {{ $ph := .photo }}{{ if not $ph }}{{ $ph = "/images/silhouette.jpg" }}{{ end }}
+  {{ $ph = relURL (strings.TrimPrefix "/" $ph) }}
+  <a class="personne-mini{{ if .saut }} saut{{ end }}" href="{{ printf "%s#%s#0" ("arbre/index.html" | relURL) .id }}" target="_blank" rel="noopener">
+    <span class="mini-photo"><img src="{{ $ph }}" alt="{{ .nom }}" loading="lazy"></span>
+    <span class="mini-texte">
+      <span class="mini-nom">{{ .nom }}</span>
+      {{ with .dates }}<span class="mini-dates">{{ . }}</span>{{ end }}
+      {{ with .position }}<span class="mini-position">{{ . }}</span>{{ end }}
+    </span>
+  </a>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}
